@@ -1,5 +1,5 @@
 # REPORTS
-PATH_TO_HTML_REPORT = r'\\DESKTOP-D5I9559\reports1'
+PATH_TO_HTML_REPORT = r'\\DESKTOP-D5I9559\reports1/{cob_date}'
 # PATH_TO_HTML_REPORT = 'C:/Users/root/PycharmProjects/SBDB/reports1/{cob_date}/'
 # PATH_TO_HTML_REPORT = "reports/{cob_date}/"
 
