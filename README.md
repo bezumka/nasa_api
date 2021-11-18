@@ -6,7 +6,7 @@ HOW TO RUN:
 NOTES: If you are not sure, that Python and PIP installed to your ENV just use 'install.sh' file
 
 4. pip3 install -r /home/nasa_api/requirements.txt
-5. docker exec <name_container> python3.7 /home/nasa_api/main.py
+5. docker exec <name_container> python3 /home/nasa_api/main.py
 
 
 Enjoy!
