@@ -1,8 +1,10 @@
 HOW TO RUN:
-1. Please prepare config file: config.py
-where is:
-- PATH_TO_REPORT: where you want to locate your test reports.
 
-2. Open cmd and run command: [PATH_TO_PYTHON]\python.exe [PATH_TO_TESTS\main.py]
+1. docker create -t -i -v <path_to_shared_folder=D:\Report>:/mnt/test/ <image_name> /bin/bashc
+2. Login to Docker and go to /home directory
+3. git clone https://github.com/bezumka/nasa_api.git
+4. pip3 install -r /home/nasa_api/requirements.txt
+5. docker exec <name_container> python3.7 /home/nasa_api/main.py
+
 
 Enjoy!
